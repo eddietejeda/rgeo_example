@@ -1,0 +1,1 @@
+RgeoExample::Application.config.secret_key_base = ENV['SECRET_KEY_BASE'].nil? ? ('x' * 30) : ENV['SECRET_KEY_BASE']
